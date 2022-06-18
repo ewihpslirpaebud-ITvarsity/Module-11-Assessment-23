@@ -1,0 +1,74 @@
+body{
+  background-color: aqua;
+}
+.navbar-nav{
+  padding-left: 500px;
+}
+
+.navbar-nav a{
+  text-decoration:none ;
+ 
+
+}
+
+.navbar-nav a:hover{
+  color: grey;
+}
+.nav-item-link{
+  padding: 15px;
+  color: rgb(252, 252, 252);
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.carousel-caption{
+    background-color: rgba(37, 34, 34, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.carousel-caption h1{
+  color:brown ;
+}
+
+.team .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+.feature-heading{
+  color: brown;
+}
+.text-muted{
+  color: rgb(25, 197, 240);
+}
+
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+
+    .team {
+        margin-top: 2rem;
+        }}
